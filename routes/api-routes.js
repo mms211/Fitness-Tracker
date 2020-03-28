@@ -25,12 +25,10 @@ module.exports = function(app) {
     });
 
     // * Add exercises to a previous workout plan.
-    // app.put("api/workouts/:id", ({ params }, res) => {
+    // app.put("api/workouts/:id", (req, res) => {
     //     db.Workout.update(
-    //       {
-    //         _id: mongojs.ObjectId(params.id)
-    //       },
-          
+    //      { _id: mongojs.ObjectId(req.params.id) },
+    //      {$push : { Workout: req.params.body}}        
     //     );
     //   });
 
