@@ -10,7 +10,8 @@ This is a full stack application that allows the user to add workouts and track 
     
 ## Links
 
-Deployed App: nameless-atoll-25586.herokuapp.com
+Deployed App: https://nameless-atoll-25586.herokuapp.com
+
 Github Repo: https://github.com/mms211/Fitness-Tracker
 
 ## License
